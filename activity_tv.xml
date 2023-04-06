@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="horizontal"
+    tools:context=".ActivityTV">
+    <ImageButton
+        android:id="@+id/ibYouTube"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:background="@drawable/selector"
+        android:contentDescription="@string/ibYouTube"
+        android:focusable="true"
+        android:src="@drawable/youtube"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/selector"
+        android:focusable="true"
+        android:hint="@string/et"
+        android:importantForAutofill="no"
+        android:inputType="textAutoComplete|textAutoCorrect|textUri|textMultiLine"
+        android:text=""
+        android:textColorHint="@color/grey"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="o" />
+    <Button
+        android:id="@+id/btGO"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/selector"
+        android:focusable="true"
+        android:text="@string/btGO"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.679"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+</androidx.constraintlayout.widget.ConstraintLayout>
