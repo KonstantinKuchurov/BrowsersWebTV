@@ -6,3 +6,9 @@ __Скриншоты:__
 
 ![Скриншот_1](screenshot_1.png)
 ![Скриншот_2](screenshot_2.png)
+***
+__Email для связи:__
+
+<c.o.c.k.s@mail.ru>
+
+<kuchurov.kostya@gmail.com>
